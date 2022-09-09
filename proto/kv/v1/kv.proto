@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+package kv.v1;
+
+service KeyValueStoreService {
+}

@@ -1,0 +1,9 @@
+task:
+  name: Proto Lint
+  container:
+    image: bufbuild/buf:latest
+  lint_script: buf lint --error-format=json > lint.report.json
+  on_failure:
+    report_artifacts:
+      path: lint.report.json
+      format: buf

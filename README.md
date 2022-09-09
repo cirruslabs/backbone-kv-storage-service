@@ -1,1 +1,1 @@
-# backbone-kv-storage-service
+# backbone-kv-store-service
